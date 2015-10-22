@@ -1,0 +1,15 @@
+{
+  "name": "slack",
+  "version": "0.0.1",
+  "description": "Simple photo gallery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Carrillo <josecarrillo0484@gmail.com> (http://www.thewaymultimedia.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "flickrapi": "^0.3.36"
+  }
+}

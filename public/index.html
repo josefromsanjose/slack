@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery APP</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="main">
+		<div id="search-box" class="search-box">
+			<form id="search-flickr">
+				<input type="text" id="search-term" placeholder="Search Flickr for images">
+				<button>Search</button>
+			</form>
+			<div id="msg"></div>
+		</div>
+		<div id="spinner">
+			<img src="images/spinner.gif" alt="Loading images...">
+		</div>
+		<div id="gallery" class="gallery fadeout">
+			<div class="canvas">
+				<div id="gallery-controls" class="gallery-controls">
+					<a href="#" class="gallery-prev">Prev</a>
+					<a href="#" class="gallery-next">Next</a>
+				</div>
+				<div><a id="search-again" href="#" class="search">Search Again</a></div>
+				<div class="gallery-state">
+					<span id="current-slide"></span>/<span id="total-slides"></span>
+				</div>
+				<div class="img">
+					<img id="img" src="">
+				</div>
+			</div>
+		</div><!--gallery-->
+	</div>
+	<script src="script/app.js"></script>
+</body>
+</html>
+
+
